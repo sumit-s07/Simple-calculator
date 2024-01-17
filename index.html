@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+    </style>
+  <link rel="stylesheet" crossorigin href="/assets/index-r5PR0JMj.css">
+</head>
+<body class="flex flex-col justify-center items-center h-[100vh]">
+    <div class="calculator bg-gray-900 h-[618px] w-[400px] rounded-lg">
+    <input id="inputbox" class="w-[100%] text-slate-50 border-none h-[164px] pr-[25px] pt-[100px] bg-transparent text-4xl text-right" type="text" placeholder="0">
+    <hr class="w-[22rem] m-auto mt-4 mb-6">
+    <div class="text-center">
+        <button class="button obutton">AC</button>
+        <button class="button obutton" >DEL</button>
+        <button class="button obutton">%</button>
+        <button class="button obutton">/</button>
+    </div>
+    <div  class="text-center" >
+        <button class="button wbutton">7</button>
+        <button class="button wbutton">8</button>
+        <button class="button wbutton">9</button>
+        <button class="button obutton">x</button>
+    </div>
+    <div  class="text-center">
+        <button class="button wbutton">4</button>
+        <button class="button wbutton">5</button>
+        <button class="button wbutton">6</button>
+        <button class="button obutton">-</button>
+    </div>
+    <div  class="text-center">
+        <button class="button wbutton">1</button>
+        <button class="button wbutton">2</button>
+        <button class="button wbutton">3</button>
+        <button class="button obutton">+</button>
+    </div>
+    <div  class="text-center">
+        <button class="button wbutton">00</button>
+        <button class="button wbutton">0</button>
+        <button class="button wbutton">.</button>
+        <button class="button obutton">=</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
